@@ -443,8 +443,8 @@ background-image: url("images/catalogo/1.jpg");
 background-size: cover;      /* ajusta la imagen */
 background-position: center; /* centra */
 background-repeat: no-repeat; 
-padding: 40px 0;
-margin-top: 1.5rem;
+padding: 30px 0;
+margin-top: 1rem;
 align-items: center;
 text-align: center;
 }
