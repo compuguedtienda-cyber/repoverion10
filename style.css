@@ -118,7 +118,6 @@ padding-top: 52px;
     
 }
 
-
 .section-title::after {    /*CONTRALA LINEA AZUL DE TITULOS*/
     content: "";
     width: 50px;
