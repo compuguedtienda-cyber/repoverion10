@@ -114,8 +114,7 @@ padding-top: 52px;
     font-size: var(--font-size-xl);
     background-color:blue;
     color: white;
-    max-width: 1560PX;
-    
+   max-width: 1600PX;
 }
 
 .section-title2 {
@@ -180,7 +179,7 @@ header .navbar {
 .navbar .nav-menu .nav-link {
     padding: 10px 18px;
     color: var(--white-color);
-    font-size: 15px;
+    font-size: 13.5px;
     border-radius: var(--border-radius-m);
     transition: 0.3s ease;
 }
@@ -395,7 +394,7 @@ header .navbar {
     /* background-color: yellow; */
     width: 100%;
     max-width: 1600px; /*control ancho monitores grandes*/
-    margin: 15px auto;
+    margin: 0.5px auto;
     display: flex;
     gap: 20px;
     /* min-height: 100vh; verificar su uso */
@@ -403,7 +402,7 @@ header .navbar {
 }
 
 .izquierda{
-    margin: auto;
+    margin: 25px auto auto 0px;
     width: 100%;
     min-width: 320px;
     max-width: 1600px;
@@ -450,9 +449,22 @@ background-size: cover;      /* ajusta la imagen */
 background-position: center; /* centra */
 background-repeat: no-repeat; 
 padding: 30px 0;
-margin-top: 1rem;
+/* margin-top: 1rem; */
 align-items: center;
 text-align: center;
+
+margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    /* padding-top: 70px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    /* font-size: var(--font-size-xl); */
+    background-color:blue;
+    color: white;
+   max-width: 1600PX;
 }
 
 #call-to-action h3 {
@@ -523,9 +535,9 @@ text-align: center;
 /*GALLERY*/
 .gallery__container img{
     width: 100%;
-    object-fit: cover;
+    
     height: 100%;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .gallery__container{
@@ -577,10 +589,6 @@ text-align: center;
     margin: 0 5px;
     color: var(--white-color);
 }
-
-
-
-
 
 /* Contact us section styling */
 .contact-section {
@@ -788,10 +796,9 @@ text-align: center;
 /* FIN CENTRAR IMAGEN DERECHA */
 
 
-.caja-banner-principal .izquierda{
-    /* display: none   ; */
-   
-}
+/* .caja-banner-principal .izquierda{
+    display: none   ;
+} */
 
     .hero-section .section-content {
         gap: 50px;
