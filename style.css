@@ -103,12 +103,19 @@ padding-top: 52px;
 
 /*CONTROLA LOS SUBTITULOS GENERAL*/
 .section-title {
+    margin: auto;
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     text-align: center;
-    padding-top: 70px;
+    /* padding-top: 70px; */
+    padding-top: 5px;
     padding-bottom: 5px;
     text-transform: uppercase;
     font-size: var(--font-size-xl);
+    background-color:blue;
+    color: white;
+    max-width: 1560PX;
+    
 }
 
 .section-title2 {
@@ -118,7 +125,8 @@ padding-top: 52px;
     
 }
 
-.section-title::after {    /*CONTRALA LINEA AZUL DE TITULOS*/
+/*CONTRALA DESPUES LINEA AZUL DE TITULOS*/
+/* .section-title::after {    
     content: "";
     width: 50px;
     height: 5px;
@@ -126,7 +134,7 @@ padding-top: 52px;
     margin: 10px auto 0;
     border-radius: var(--border-radius-s);
     background: blue;
-}
+} */
 /* FIN CONTROLA LOS SUBTITULOS GENERAL*/
 
 
@@ -781,11 +789,9 @@ text-align: center;
 
 
 .caja-banner-principal .izquierda{
-    display: none   ;
+    /* display: none   ; */
    
 }
-
-
 
     .hero-section .section-content {
         gap: 50px;
