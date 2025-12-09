@@ -401,6 +401,9 @@ header .navbar {
     justify-content: space-between;
 }
 
+.secundario img{
+    display: none;
+}
 .izquierda{
     margin: 25px auto auto 0px;
     width: 100%;
@@ -796,9 +799,6 @@ margin: auto;
 /* FIN CENTRAR IMAGEN DERECHA */
 
 
-/* .caja-banner-principal .izquierda{
-    display: none   ;
-} */
 
     .hero-section .section-content {
         gap: 50px;
@@ -871,6 +871,7 @@ margin: auto;
 
 /* RESPONSIVE CELULAR HASTA 640px */
 @media screen and (max-width: 640px) {
+  
     .menu-section .menu-list {
         gap: 60px;
     }
@@ -879,38 +880,13 @@ margin: auto;
         width: 100%;
     }
 
+    .izquierda img {
+        display: none;
+    }
 
-.derecha{
-    padding-top: 1rem;
-    width: 20rem;
-    height: 28rem;
-}
-
-.caja-banner-principal .izquierda img{
-    width: 100%;
-    /* height: 100%    ; */
-    min-width: 320px;
-     height: auto;
-    object-fit: cover;
-    border-radius: 0.5rem;
-}
-
-.caja-banner-principal .derecha img{
-    width: 100%;
-    height: 100%;
-    /* object-fit: cover; */
-    
-}
-
-.section-poster .poster img{
-    margin: auto;
-    width: 100%;
-    min-width: 320px;
-    max-width: 1100px;
-    height: auto;
-    
-}
-
+    .secundario img {
+        display: block;
+    };
 
     .testimonials-section .slider-wrapper {
         margin: 0 0 30px;
