@@ -524,7 +524,7 @@ margin: auto;
 .gallery-section .gallery-list .gallery-item {
     overflow: hidden;
     border-radius: var(--border-radius-s);
-    width: calc(100% / 3 - 32px);
+    
 }
 
 .gallery-section .gallery-item .gallery-image {
