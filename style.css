@@ -107,7 +107,7 @@ padding-top: 52px;
     
     margin-bottom: 1.5rem;
     text-align: center;
-    padding-top: 70px;
+    /* padding-top: 70px; */
     
     
     text-transform: uppercase;
@@ -121,7 +121,10 @@ padding-top: 52px;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 5px;
-    
+}
+
+.testimonials-section{
+    padding-top: 70px;
 }
 
 /*CONTRALA DESPUES LINEA AZUL DE TITULOS*/
@@ -350,7 +353,7 @@ header .navbar {
 /* Menu section styling */
 .menu-section {
     color: white;
-    background: rgb(48, 47, 47);
+    background: white;
     padding-bottom: 40px;
 }
 
@@ -444,6 +447,26 @@ header .navbar {
 }
 /* FIN BANNER */
 
+.btn-cata{
+padding-top: 4rem;
+    text-align: center;
+    height: 150px;
+    background-image: url(images/banner/001.jpg);
+    background-size: cover;      /* ajusta la imagen */
+    
+}
+
+.boton-redireccion{
+    background-color: #5054c6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    border-radius: 12px;
+    font-family: sans-serif;
+}
+
 
 /*CATALOGO*/
 #call-to-action {
@@ -451,18 +474,18 @@ background-image: url("images/catalogo/1.jpg");
 background-size: cover;      /* ajusta la imagen */
 background-position: center; /* centra */
 background-repeat: no-repeat; 
-padding: 30px 0;
+/* padding: 30px 0; */
 /* margin-top: 1rem; */
 align-items: center;
 text-align: center;
 
-margin: auto;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+/* margin: auto; */
+    /* margin-top: 1.5rem;
+    margin-bottom: 1.5rem; */
     text-align: center;
     /* padding-top: 70px; */
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     text-transform: uppercase;
     /* font-size: var(--font-size-xl); */
     background-color:blue;
@@ -546,7 +569,7 @@ margin: auto;
 .gallery__container{
     width: 95%;
     max-width: 1600px;
-    margin: 40px auto;
+    margin: 0 auto;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -855,6 +878,7 @@ margin: auto;
     max-width: 200px;
 }
 
+
 .gallery-section .gallery-list {
     gap: 30px;
 }
@@ -896,6 +920,8 @@ margin: auto;
     .testimonials-section .swiper-slide-button {
     display: none;
 }
+
+
     /* FIN Desaparece los botones slider en modo celular */
 
     .footer-section .section-content {
