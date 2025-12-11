@@ -375,7 +375,7 @@ header .navbar {
 }
 
 .menu-section .menu-list .menu-item .menu-image { /*tamaño imagen contacto*/
-    max-width: 33%;
+    max-width: 20%;
     aspect-ratio: 1;
     margin-bottom: 15px;
     object-fit: contain;
@@ -873,7 +873,7 @@ text-align: center;
 }
 
 .menu-section .menu-list .menu-item .menu-image { /*tamaño imagen contacto*/
-    max-width: 33%;
+    max-width: 20%;
     aspect-ratio: 1;
     margin-bottom: 15px;
     object-fit: contain;
@@ -906,7 +906,7 @@ text-align: center;
     }
 
     .menu-section .menu-list .menu-item .menu-image { /*tamaño imagen contacto*/
-    max-width: 33%;
+    max-width: 20%;
     aspect-ratio: 1;
     margin-bottom: 15px;
     object-fit: contain;
