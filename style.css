@@ -447,25 +447,39 @@ header .navbar {
 }
 /* FIN BANNER */
 
-.btn-cata{
-padding-top: 4rem;
+.btn-cata{ /*CONTENEDOR CATALOGO*/ 
+    width: 100%;
+    max-width: 1600px; /*control ancho monitores grandes*/
+    margin: 1px auto;
     text-align: center;
-    height: 150px;
-    background-image: url(images/banner/001.jpg);
-    background-size: cover;      /* ajusta la imagen */
-    
+    height: 170px;
+    padding-top: 5rem;
+    margin-top: 1.5rem;
+    /* background-image: url(images/poster/03.jpg); */
+    background-color: red;
+    background-size: cover;    
 }
 
-.boton-redireccion{
-    background-color: #5054c6;
+.boton-redireccion{ /*BOTON CATALOGO*/ 
+    background-color: blue;
     border: none;
     color: white;
     padding: 15px 32px;
     text-decoration: none;
-    font-size: 1.4rem;
-    border-radius: 12px;
+    font-size: 1rem;
+    border-radius: 1rem;
     font-family: sans-serif;
 }
+
+
+.boton-redireccion:hover{
+background-color: white;
+color: blue;
+border-color: blue;
+font-size:var(--font-weight-bold);
+}
+
+
 
 
 /*CATALOGO*/
