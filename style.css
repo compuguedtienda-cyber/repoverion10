@@ -352,7 +352,7 @@ header .navbar {
 
 /* Menu section styling */
 .menu-section {
-    color: white;
+    color: black;
     background: white;
     padding-bottom: 40px;
 }
@@ -374,8 +374,8 @@ header .navbar {
     width: calc(100% / 3 - 110px);
 }
 
-.menu-section .menu-list .menu-item .menu-image {
-    max-width: 83%;
+.menu-section .menu-list .menu-item .menu-image { /*tamaño imagen contacto*/
+    max-width: 33%;
     aspect-ratio: 1;
     margin-bottom: 15px;
     object-fit: contain;
@@ -848,12 +848,6 @@ text-align: center;
     display: block;
 }
 
-
-
-
-/* .hero-section{
-    display: block;
-} */
 .about-section .section-content {
     
     flex-direction: column-reverse;
@@ -876,6 +870,13 @@ text-align: center;
 
 .menu-section .menu-list .menu-item .menu-image {
     max-width: 200px;
+}
+
+.menu-section .menu-list .menu-item .menu-image { /*tamaño imagen contacto*/
+    max-width: 33%;
+    aspect-ratio: 1;
+    margin-bottom: 15px;
+    object-fit: contain;
 }
 
 
@@ -903,6 +904,13 @@ text-align: center;
     .menu-section .menu-list .menu-item, .gallery-section .gallery-list .gallery-item {
         width: 100%;
     }
+
+    .menu-section .menu-list .menu-item .menu-image { /*tamaño imagen contacto*/
+    max-width: 33%;
+    aspect-ratio: 1;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
 
     .izquierda img {
         display: none;
